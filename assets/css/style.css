@@ -1625,3 +1625,23 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+
+.icon-box {
+  /* display: flex; */
+  /* justify-content: center; */
+  position: relative;
+}
+
+.img-tool {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto auto;
+  /* height: auto; */
+}
+
+.tableau {
+  position: static;
+}
