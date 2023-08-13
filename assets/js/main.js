@@ -249,4 +249,13 @@
     })
   });
 
+  $(document).ready(function(){
+    for(let i=1; i<=5; i++){
+      $(`.toggle-work-experience-${i} > span > i`).click(function(){
+        $(`.toggle-work-experience-${i} > span > i`).toggleClass("bi bi-caret-right-fill bi bi-caret-down-fill")
+        $(`.detail-work-experience-${i}`).toggle();
+      });
+    }
+  });
+
 })()

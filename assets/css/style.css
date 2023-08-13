@@ -1645,3 +1645,31 @@ section {
 .tableau {
   position: static;
 }
+
+.text-sm {
+  font-size: 14px;
+}
+
+.skill-logo-wrapper {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.skill-logo {
+  width: 70%;
+  position: static;
+}
+
+.icon-work-experience {
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.job-desc {
+  margin: 4px;
+}

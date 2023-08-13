@@ -25,6 +25,8 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -152,15 +154,15 @@
         </div>
 
         <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up">
-              <div class="member-img">
-                <img src="assets/img/foto.jpg" class="img-fluid" alt="">
-              </div>
+          <div class="member" data-aos="fade-up">
+            <div class="member-img">
+              <img src="assets/img/foto.jpg" class="img-fluid" alt="">
             </div>
           </div>
+        </div>
         <br>
         <div class="row content" data-aos="fade-up">
-          <div class="col-lg-6">
+          <div>
             <p align="justify">
               I am currently working as Business Intelligence Analyst in one of the biggest digital health company in Indonesia. 
               I work closely with product manager and other stakeholders to give insight/recommendation from analyzed data.
@@ -168,10 +170,59 @@
             <br>
             <h3> WORK EXPERIENCE </h3>
             <ul style: square>
-              <li><i class="ri-arrow-right-circle-fill"></i> Business Intelligence Analyst at Halodoc (September 2022 - Present)</li>
-              <li><i class="ri-arrow-right-circle-fill"></i> Junior Big Data Analyst Intern at Halodoc (August 2021 - August 2022)</li>
-              <li><i class="ri-arrow-right-circle-fill"></i> Student Researcher Intern at Research Center of Artificial Intelligence and Big Data Unpad (August 2021 - November 2021)</li>
-              <li><i class="ri-arrow-right-circle-fill"></i> Computer Laboratory Assistant at Departemen Matematika FMIPA Unpad (August 2020 - January 2022)</li>
+              <li class="toggle-work-experience-1"><span class="icon-work-experience"><i class="bi bi-caret-right-fill"></i></span> Business Analyst at PT Jaminan Kredit Indonesia (March 2023 - Present)
+                <div class="detail-work-experience-1 hidden text-sm">
+                  
+                  <p class="job-desc"><b>Job Desc</b></p>
+                  - Collaborate with business stakeholders to understand their objectives and processes <br>
+                  - Create clear, detailed, and well-structured business requirements. <br>
+                  - Conduct thorough market research to identify potential clients, competitors, and market trends <br>
+                  - Identify gaps in the market and areas for potential expansion <br>
+                  - Create partnership proposal <br>
+                  - Analyze financial statement of company partner to assess their potential for business collaboration <br>
+                  - Develop and maintain business performance metrics, dashboards, and reports <br>
+                </div>
+              </li>
+
+              <li class="toggle-work-experience-2"><span class="icon-work-experience"><i class="bi bi-caret-right-fill"></i></span> Business Intelligence Analyst at Halodoc (Sep 2022 - March 2023)
+                <div class="detail-work-experience-2 hidden text-sm">
+                  
+                  <p class="job-desc"><b>Job Desc</b></p>
+                  - Data Analysis: Used statistical and analytical tools to process and analyze the collected data. Applied data visualization techniques to present the findings in a clear and meaningful way. <br>
+                  &nbsp Experienced in price experiment analysis, inventory stock analysis, funnel analysis, cohort analysis, customer retention analysis.
+                  <br> - Report Generation: Prepared regular reports, dashboards, and executive summaries that highlight key performance indicators (KPIs) and provide insights to stakeholders
+                  <br> - Trend Analysis: Analyzed historical and current data to identify trends, patterns, and anomalies that may impact business operations.
+                  <br> - Data Quality Assurance: Ensured the accuracy, completeness, and reliability of data by conducting data validation and integrity checks
+                  <br> - Ad-Hoc Analysis: Addressed ad-hoc data analysis requests from various departments to support specific business inquiries or projects
+                  <br> - Cross-Functional Collaboration: Collaborated with different teams, including marketing, sales, finance, and operations, to understand their data needs and provide actionable insights
+                  <br> - Dashboard Migration: Worked closely with BI Engineer team to migrate dashboards to the new data warehouse
+                </div>
+              </li>
+              <li class="toggle-work-experience-3"><span class="icon-work-experience"><i class="bi bi-caret-right-fill"></i></span> Junior Big Data Analyst Intern (August 2021 - August 2022)
+                <div class="detail-work-experience-3 hidden text-sm">
+                  
+                  <p class="job-desc"><b>Job Desc</b></p>
+                  - Created reports/dashboards using Looker and Metabase that provide funnel and conversion analysis
+                  <br> - Conducted sentiment analysis on Halodoc apps reviews
+
+                </div>
+              </li>
+              <li class="toggle-work-experience-4"><span class="icon-work-experience"><i class="bi bi-caret-right-fill"></i></span> Student Researcher Intern at Research Center of Artificial Intelligence and Big Data Unpad (August 2021 - November 2021)
+                <div class="detail-work-experience-4 hidden text-sm">
+                  
+                  <p class="job-desc"><b>Job Desc</b></p>
+                  - Data labeling for sentiment analysis
+                 <br> - Wrote and published paper: Sentiment Analysis on Telemedicine App Reviews using XGBoost Classifier
+                </div>
+              </li>
+              <li class="toggle-work-experience-5"><span class="icon-work-experience"><i class="bi bi-caret-right-fill"></i></span> Computer Laboratory Assistant at Departemen Matematika FMIPA Unpad (August 2020 - January 2022)
+                <div class="detail-work-experience-5 hidden text-sm">
+                  
+                  <p class="job-desc"><b>Job Desc</b></p>
+                  - Arranged curriculum and assisted over 90 students of Non-Linear Programming, Numerical Methods, Programming Algorithms, and
+                  <br> - Data Structures subject
+                </div>
+              </li>
             </ul>
           </div>
 <!--           <div class="col-lg-6 pt-4 pt-lg-0">
@@ -350,48 +401,52 @@
 
         <div class="row">
           <div class="col-lg-4 col-md-6">
-            <div class="icon-box" data-aos="zoom-in-left">
-              <div class="icon"><i class="bi bi-briefcase" style="color: #ff689b;"></i></div>
+            <div class="icon-box skill-logo-wrapper" data-aos="zoom-in-left">
+              <!-- <div class="icon"><i class="bi bi-briefcase" style="color: #ff689b;"></i></div>
               <h4 class="title"><a href="">SQL</a></h4>
-              <p class="description">Intermediate</p>
+              <p class="description">Intermediate</p> -->
+              <img class="img-tool skill-logo" src="https://1000logos.net/wp-content/uploads/2020/08/PostgreSQL-Logo.jpg" alt="posgresql" />
             </div>
           </div>
           <div class="col-lg-4 col-md-6 mt-5 mt-md-0">
-            <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="100">
-              <div class="icon"><i class="bi bi-book" style="color: #e9bf06;"></i></div>
+            <div class="icon-box skill-logo-wrapper" data-aos="zoom-in-left" data-aos-delay="100">
+              <!-- <div class="icon"><i class="bi bi-book" style="color: #e9bf06;"></i></div>
               <h4 class="title"><a href="">Python</a></h4>
-              <p class="description">Basic</p>
+              <p class="description">Basic</p> -->
+              <img class="img-tool skill-logo" src="https://miro.medium.com/v2/resize:fit:1400/1*m0H6-tUbW6grMlezlb52yw.png" alt="python">
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 mt-5 mt-lg-0 ">
-            <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="200">
-              <div class="icon"><i class="bi bi-card-checklist" style="color: #3fcdc7;"></i></div>
-              <h4 class="title"><a href="">Looker</a></h4>
-              <p class="description">Intermediate</p>
+            <div class="icon-box skill-logo-wrapper" data-aos="zoom-in-left" data-aos-delay="200">
+              <!-- <div class="icon"><i class="bi bi-card-checklist" style="color: #3fcdc7;"></i></div>
+              <h4 class="title"><a href=""></a></h4>
+              <p class="description">Intermediate</p> -->
+              <img class="img-tool skill-logo" src="https://logos-world.net/wp-content/uploads/2022/02/Microsoft-Excel-Symbol.png" alt="excel" />
             </div>
           </div>
           <div class="col-lg-4 col-md-6 mt-5">
-            <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="300">
-              <div class="icon"><i class="bi bi-binoculars" style="color:#41cf2e;"></i></div>
+            <div class="icon-box skill-logo-wrapper" data-aos="zoom-in-left" data-aos-delay="300">
+              <!-- <div class="icon"><i class="bi bi-binoculars" style="color:#41cf2e;"></i></div>
               <h4 class="title"><a href="">Metabase</a></h4>
-              <p class="description">Intermediate</p>
+              <p class="description">Intermediate</p> -->
+              <img class="img-tool skill-logo" src="https://global-uploads.webflow.com/63161b9b75644ae3ed9bbfc8/64958ef158bb8ca2633ceb2a_metabase-ar21.png" alt="metabase" />
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 mt-5">
-            <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="400">
+            <div class="icon-box skill-logo-wrapper" data-aos="zoom-in-left" data-aos-delay="400">
               <!-- <div class="icon"><i class="bi bi-globe" style="color: #d6ff22;"></i></div> -->
               <!-- <h4 class="title"><a href="">Tableau</a></h4> -->
               <!-- <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p> -->
-              <img class="img-tool tableau" src="https://logos-world.net/wp-content/uploads/2021/10/Tableau-Emblem.png" alt="Tableau">
+              <img class="img-tool tableau skill-logo" src="https://logos-world.net/wp-content/uploads/2021/10/Tableau-Emblem.png" alt="Tableau">
             </div>
           </div>
           <div class="col-lg-4 col-md-6 mt-5">
-            <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="500">
+            <div class="icon-box skill-logo-wrapper" data-aos="zoom-in-left" data-aos-delay="500">
               <!-- <div class="icon"><i class="bi bi-clock" style="color: #4680ff;"></i></div> -->
               <!-- <h4 class="title"><a href="">Google Data Studio</a></h4> -->
-              <img class="img-tool" src="https://multifunnelmarketing.nl/wp-content/uploads/2022/10/google-looker-studio.png" alt="google data studio">
+              <img class="img-tool skill-logo" src="https://multifunnelmarketing.nl/wp-content/uploads/2022/10/google-looker-studio.png" alt="google data studio">
               <!-- <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p> -->
             </div>
           </div>
@@ -425,8 +480,8 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-img"><img src="assets/img/portfolio/CohortAnalysis-1.png" class="img-fluid" alt=""></div>
             <div class="portfolio-info">
-              <h4>App 1</h4>
-              <p>App</p>
+              <h4>Cohort Analysis</h4>
+              <p>Cohort Analysis</p>
               <a href="assets/img/portfolio/-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
               <a href="https://bit.ly/CohortAnalysis-1" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
@@ -435,14 +490,14 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-img"><img src="assets/img/portfolio/HypothesisTesting-2.png" class="img-fluid" alt=""></div>
             <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
+              <h4>Hypothesis Testing</h4>
+              <p>Hypothesis Testing</p>
               <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
               <a href="https://bit.ly/HypothesisTesting-2" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-img"><img src="assets/img/portfolio/courses/certif practice cohort analysis myskill.png" class="img-fluid" alt=""></div>
             <div class="portfolio-info">
               <h4>App 2</h4>
@@ -450,9 +505,9 @@
               <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
-          </div>
+          </div> -->
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt=""></div>
             <div class="portfolio-info">
               <h4>Card 2</h4>
@@ -510,7 +565,7 @@
               <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
-          </div>
+          </div> -->
 
         </div>
 
@@ -965,6 +1020,7 @@
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
